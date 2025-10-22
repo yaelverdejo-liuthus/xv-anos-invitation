@@ -116,19 +116,19 @@ export default function Home() {
               </h3>
               <div className="grid gap-6 md:grid-cols-2">
                 <div className="text-center space-y-1">
-                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Madrina</p>
+                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mi Madrina</p>
                   <p className="text-lg text-foreground/90">Virginia Arano Rosales</p>
                 </div>
                 <div className="text-center space-y-1">
-                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Padrino</p>
+                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mi Padrino</p>
                   <p className="text-lg text-foreground/90">Luis Pavón Hernández</p>
                 </div>
                 <div className="text-center space-y-1">
-                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mamá</p>
+                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mi Mamá</p>
                   <p className="text-lg text-foreground/90">Manuela Espinosa Carrion</p>
                 </div>
                 <div className="text-center space-y-1">
-                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Papá</p>
+                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mi Papá</p>
                   <p className="text-lg text-foreground/90">Rafael Artíguez Carballo</p>
                 </div>
               </div>
