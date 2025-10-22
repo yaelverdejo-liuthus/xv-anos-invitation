@@ -215,7 +215,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 px-4 text-center border-t border-[#B5B682]/20">
-        <p className="text-sm text-foreground/60">Con amor, Jimena, familia y Yael</p>
+        <p className="text-sm text-foreground/60">Con amor, Jimena y familia</p>
         <p className="text-xs text-foreground/40 mt-2">5 de Diciembre, 2025</p>
       </footer>
 
