@@ -266,7 +266,7 @@ export default function Home() {
 
           <p className="text-lg text-[#B5B682] font-medium mt-4">¡Tu presencia es muy importante para nosotros!</p>
         </div>
-        <div className="max-w-2xl mx-auto text-center">
+        <div className="max-w-2xl mx-auto text-center mt-8 md:mt-10">
           <Button
             asChild
             size="lg"
