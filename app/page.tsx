@@ -9,6 +9,18 @@ import { Crown, Gift, Sparkles } from "lucide-react"
 export default function Home() {
   const whatsappMessage = encodeURIComponent("¡Hola! Confirmo mi asistencia a los XV años de Jimena. 🎉")
   const whatsappUrl = "https://api.whatsapp.com/send?phone=5212294636766&text=" + encodeURIComponent("¡Hola! Confirmo mi asistencia a los XV años de Jimena.")
+  // Google Calendar event (all-day)
+  const eventTitle = "XV a\u00f1os de Jimena."
+  const startDate = "20251205"
+  const endDate = "20251206"
+  const details = "Ceremonia 6:00 p.m. en Parroquia Nuestra Se\u00f1ora del Rosario, recepci\u00f3n 8:00 p.m. en Sal\u00f3n y Jard\u00edn de Eventos Sunrise."
+  const ctz = "America/Mexico_City"
+  const googleCalendarUrl =
+    "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+    "&text=" + encodeURIComponent(eventTitle) +
+    "&dates=" + startDate + "/" + endDate +
+    "&details=" + encodeURIComponent(details) +
+    "&ctz=" + encodeURIComponent(ctz)
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#FFF8E7] via-white to-[#FFF8E7] relative overflow-hidden">
@@ -231,6 +243,16 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-cursive)] text-[#D4AF37]">
             Confirma tu Asistencia
           </h2>
+
+          <Button
+            asChild
+            size="lg"
+            className="bg-gradient-to-r from-[#D4AF37] to-[#B8941F] hover:from-[#B8941F] hover:to-[#8F6E15] text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
+          >
+            <a href={googleCalendarUrl} target="_blank" rel="noopener noreferrer">
+              Guardar en calendario
+            </a>
+          </Button>
 
           <Button
             asChild
