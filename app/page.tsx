@@ -247,7 +247,7 @@ export default function Home() {
           <Button
             asChild
             size="lg"
-            className="bg-gradient-to-r from-[#D4AF37] to-[#B8941F] hover:from-[#B8941F] hover:to-[#8F6E15] text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
+            className="hidden"
           >
             <a href={googleCalendarUrl} target="_blank" rel="noopener noreferrer">
               Guardar en calendario
@@ -265,6 +265,17 @@ export default function Home() {
           </Button>
 
           <p className="text-lg text-[#B5B682] font-medium mt-4">¡Tu presencia es muy importante para nosotros!</p>
+        </div>
+        <div className="max-w-2xl mx-auto text-center">
+          <Button
+            asChild
+            size="lg"
+            className="bg-gradient-to-r from-[#D4AF37] to-[#B8941F] hover:from-[#B8941F] hover:to-[#8F6E15] text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
+          >
+            <a href={googleCalendarUrl} target="_blank" rel="noopener noreferrer">
+              Guardar en calendario
+            </a>
+          </Button>
         </div>
       </section>
 
