@@ -8,7 +8,7 @@ import { Crown, Gift, Sparkles } from "lucide-react"
 
 export default function Home() {
   const whatsappMessage = encodeURIComponent("¡Hola! Confirmo mi asistencia a los XV años de Jimena. 🎉")
-  const whatsappUrl = `https://wa.me/5212294636766?text=${whatsappMessage}`
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5212294636766&text=" + encodeURIComponent("¡Hola! Confirmo mi asistencia a los XV años de Jimena.")
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#FFF8E7] via-white to-[#FFF8E7] relative overflow-hidden">
