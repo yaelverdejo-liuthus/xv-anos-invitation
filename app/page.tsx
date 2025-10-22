@@ -106,6 +106,37 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Sponsors and Parents */}
+      <section className="py-12 px-4">
+        <div className="max-w-3xl mx-auto">
+          <Card className="border-2 border-[#D4AF37] bg-white/80 backdrop-blur">
+            <CardContent className="p-8">
+              <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-cursive)] text-center text-[#B5B682] mb-6">
+                Padrinos y Padres
+              </h3>
+              <div className="grid gap-6 md:grid-cols-2">
+                <div className="text-center space-y-1">
+                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Madrina</p>
+                  <p className="text-lg text-foreground/90">Virginia Arano Rosales</p>
+                </div>
+                <div className="text-center space-y-1">
+                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Padrino</p>
+                  <p className="text-lg text-foreground/90">Luis Pavón Hernández</p>
+                </div>
+                <div className="text-center space-y-1">
+                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mamá</p>
+                  <p className="text-lg text-foreground/90">Manuela Espinosa Carrion</p>
+                </div>
+                <div className="text-center space-y-1">
+                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Papá</p>
+                  <p className="text-lg text-foreground/90">Rafael Artíguez Carballo</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Countdown Timer */}
       <section className="py-12 px-4">
         <div className="max-w-4xl mx-auto space-y-6">
