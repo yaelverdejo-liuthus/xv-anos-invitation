@@ -75,8 +75,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative py-16 px-4 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
-          <Reveal>
-            <div className="relative inline-block">
+          <div className="relative inline-block">
             <h1 className="font-[family-name:var(--font-cursive)] text-6xl md:text-8xl text-[#B5B682] drop-shadow-lg">
               Mis X
               <span className="relative inline-block">
@@ -86,12 +85,8 @@ export default function Home() {
               Años
             </h1>
           </div>
-          <Reveal delay={100}>
-            <div className="w-32 h-1 bg-gradient-to-r from-[#B5B682] via-[#D4AF37] to-[#B5B682] mx-auto rounded-full" />
-          </Reveal>
-          <Reveal delay={200}>
-            <p className="text-4xl md:text-5xl font-[family-name:var(--font-cursive)] text-[#D4AF37]">Jimena</p>
-          </Reveal>
+          <div className="w-32 h-1 bg-gradient-to-r from-[#B5B682] via-[#D4AF37] to-[#B5B682] mx-auto rounded-full" />
+          <p className="text-4xl md:text-5xl font-[family-name:var(--font-cursive)] text-[#D4AF37]">Jimena</p>
         </div>
       </section>
 
@@ -124,7 +119,6 @@ export default function Home() {
               </h3>
             </Reveal>
           </div>
-          </Reveal>
           <div className="space-y-4">
             <Reveal>
               <div className="flex items-center gap-3">
@@ -178,34 +172,28 @@ export default function Home() {
       {/* Locations */}
       <section className="py-12 px-4 bg-white/50">
         <div className="max-w-4xl mx-auto space-y-8">
-          <Reveal>
-            <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-cursive)] text-center text-[#B5B682]">
+          <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-cursive)] text-center text-[#B5B682]">
             Dónde y Cuándo
           </h2>
-          </Reveal>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <Reveal>
-              <LocationCard
+            <LocationCard
               title="Ceremonia Religiosa"
               address="Parroquia Nuestra Señora del Rosario"
               time="6:00 p.m."
               mapUrl="https://maps.app.goo.gl/f9zXDYrT17bvsztE7?g_st=aw"
               icon="church"
               imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq16zxWZMvTAf1TUcLX5cDEZozCIMnGFrt2wiGZN4ghVLdv-qnr1EjXe9IpINZ6cQ8274n6S9z3VEhF2PuqTpWIcBaQRSB6bypkzkJGJBAVRfWMF5nGexr0RVjJUiv0dx9Ue_LhHw=w408-h422-k-no"
-              />
-            </Reveal>
+            />
 
-            <Reveal delay={120}>
-              <LocationCard
+            <LocationCard
               title="Recepción"
               address="Salón y Jardín de Eventos Sunrise"
               time="8:00 p.m."
               mapUrl="https://maps.app.goo.gl/XynhDBrfBg249FNdA?g_st=aw"
               icon="venue"
               imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqrLYs7Rb53ZLihigWen3GJQpUGEPmaO463rpkmk_8xmx-c7DbmW4IygZvszR3-P-NTITYX4nbOI2XwSxe50eKAMWYII916g6kve7aDO_F80xbypzuaSWghIKA6gOhYdB2oWoBP3YAl8TQ=w408-h306-k-no"
-              />
-            </Reveal>
+            />
           </div>
         </div>
       </section>
@@ -213,8 +201,7 @@ export default function Home() {
       {/* Gift Registry & Dress Code */}
       <section className="py-12 px-4">
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
-          <Reveal>
-            <Card className="border-2 border-[#D4AF37] bg-gradient-to-br from-white to-[#FFF8E7]">
+          <Card className="border-2 border-[#D4AF37] bg-gradient-to-br from-white to-[#FFF8E7]">
             <CardContent className="p-6 space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center">
@@ -234,11 +221,9 @@ export default function Home() {
                 <p className="text-lg font-semibold text-[#D4AF37]">Lluvia de Sobres</p>
               </div>
             </CardContent>
-            </Card>
-          </Reveal>
+          </Card>
 
-          <Reveal delay={120}>
-            <Card className="border-2 border-[#D4AF37] bg-gradient-to-br from-white to-[#FFF8E7]">
+          <Card className="border-2 border-[#D4AF37] bg-gradient-to-br from-white to-[#FFF8E7]">
             <CardContent className="p-6 space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center">
@@ -255,31 +240,26 @@ export default function Home() {
                 <p className="text-lg font-semibold text-[#D4AF37]">Formal</p>
               </div>
             </CardContent>
-            </Card>
-          </Reveal>
+          </Card>
         </div>
       </section>
 
       {/* RSVP Section */}
       <section className="py-12 px-4 bg-gradient-to-b from-[#FFF8E7] to-white">
         <div className="max-w-2xl mx-auto space-y-6 text-center">
-          <Reveal>
-            <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-cursive)] text-[#D4AF37]">
-              Confirma tu Asistencia
-            </h2>
-          </Reveal>
+          <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-cursive)] text-[#D4AF37]">
+            Confirma tu Asistencia
+          </h2>
 
-          <Reveal delay={120}>
-            <Button
-              asChild
-              size="lg"
-              className="bg-gradient-to-r from-[#B5B682] to-[#8B8B5C] hover:from-[#8B8B5C] hover:to-[#6B6B4C] text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
-            >
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                Confirmar por WhatsApp
-              </a>
-            </Button>
-          </Reveal>
+          <Button
+            asChild
+            size="lg"
+            className="bg-gradient-to-r from-[#B5B682] to-[#8B8B5C] hover:from-[#8B8B5C] hover:to-[#6B6B4C] text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
+          >
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+              Confirmar por WhatsApp
+            </a>
+          </Button>
 
           <p className="text-lg text-[#B5B682] font-medium mt-4">¡Tu presencia es muy importante para nosotros!</p>
         </div>
