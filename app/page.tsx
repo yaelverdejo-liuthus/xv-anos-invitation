@@ -109,31 +109,33 @@ export default function Home() {
       {/* Sponsors and Parents */}
       <section className="py-12 px-4">
         <div className="max-w-3xl mx-auto">
-          <Card className="border-2 border-[#D4AF37] bg-white/80 backdrop-blur">
-            <CardContent className="p-8">
-              <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-cursive)] text-center text-[#B5B682] mb-6">
-                Padrinos y Padres
-              </h3>
-              <div className="grid gap-6 md:grid-cols-2">
-                <div className="text-center space-y-1">
-                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mi Madrina</p>
-                  <p className="text-lg text-foreground/90">Virginia Arano Rosales</p>
-                </div>
-                <div className="text-center space-y-1">
-                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mi Padrino</p>
-                  <p className="text-lg text-foreground/90">Luis Pavón Hernández</p>
-                </div>
-                <div className="text-center space-y-1">
-                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mi Mamá</p>
-                  <p className="text-lg text-foreground/90">Manuela Espinosa Carrion</p>
-                </div>
-                <div className="text-center space-y-1">
-                  <p className="text-sm uppercase tracking-wide text-[#8B8B5C]">Mi Papá</p>
-                  <p className="text-lg text-foreground/90">Rafael Artíguez Carballo</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+          <div className="text-center mb-6">
+            <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-cursive)] text-[#B5B682]">
+              Padrinos y Padres
+            </h3>
+          </div>
+          <div className="space-y-4">
+            <div className="flex items-center gap-3">
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Madrina</span>
+              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+              <span className="text-lg text-foreground/90 whitespace-nowrap">Virginia Arano Rosales</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Padrino</span>
+              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+              <span className="text-lg text-foreground/90 whitespace-nowrap">Luis Pavón Hernández</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Mamá</span>
+              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+              <span className="text-lg text-foreground/90 whitespace-nowrap">Manuela Espinosa Carrion</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Papá</span>
+              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+              <span className="text-lg text-foreground/90 whitespace-nowrap">Rafael Artíguez Carballo</span>
+            </div>
+          </div>
         </div>
       </section>
 
