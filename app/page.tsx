@@ -1,6 +1,7 @@
 import { CountdownTimer } from "@/components/countdown-timer"
 import { LocationCard } from "@/components/location-card"
 import { MusicPlayer } from "@/components/music-player"
+import { Reveal } from "@/components/reveal"
 import { CursorTrail } from "@/components/cursor-trail"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -92,7 +93,8 @@ export default function Home() {
       {/* Invitation Message */}
       <section className="py-12 px-4">
         <div className="max-w-2xl mx-auto">
-          <Card className="border-2 border-[#D4AF37] bg-white/80 backdrop-blur">
+          <Reveal>
+            <Card className="border-2 border-[#D4AF37] bg-white/80 backdrop-blur">
             <CardContent className="p-8 text-center space-y-4">
               <p className="text-lg md:text-xl leading-relaxed text-foreground/90">
                 Con la bendición de Dios y el amor de mi familia, tengo el honor de invitarte a celebrar conmigo este
@@ -102,7 +104,8 @@ export default function Home() {
                 ¡Acompáñame en esta celebración!
               </p>
             </CardContent>
-          </Card>
+            </Card>
+          </Reveal>
         </div>
       </section>
 
@@ -110,31 +113,41 @@ export default function Home() {
       <section className="py-12 px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-6">
-            <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-cursive)] text-[#B5B682]">
-              Padrinos y Padres
-            </h3>
+            <Reveal>
+              <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-cursive)] text-[#B5B682]">
+                Padrinos y Padres
+              </h3>
+            </Reveal>
           </div>
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Madrina</span>
-              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
-              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Virginia Arano Rosales</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Padrino</span>
-              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
-              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Luis Pavón Hernández</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Mamá</span>
-              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
-              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Manuela Espinosa Carrion</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Papá</span>
-              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
-              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Rafael Artíguez Carballo</span>
-            </div>
+            <Reveal>
+              <div className="flex items-center gap-3">
+                <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Madrina</span>
+                <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+                <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Virginia Arano Rosales</span>
+              </div>
+            </Reveal>
+            <Reveal delay={100}>
+              <div className="flex items-center gap-3">
+                <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Padrino</span>
+                <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+                <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Luis Pavón Hernández</span>
+              </div>
+            </Reveal>
+            <Reveal delay={200}>
+              <div className="flex items-center gap-3">
+                <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Mamá</span>
+                <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+                <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Manuela Espinosa Carrion</span>
+              </div>
+            </Reveal>
+            <Reveal delay={300}>
+              <div className="flex items-center gap-3">
+                <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Papá</span>
+                <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+                <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Rafael Artíguez Carballo</span>
+              </div>
+            </Reveal>
           </div>
         </div>
       </section>
@@ -142,11 +155,17 @@ export default function Home() {
       {/* Countdown Timer */}
       <section className="py-12 px-4">
         <div className="max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-cursive)] text-center text-[#D4AF37]">
-            Faltan...
-          </h2>
-          <CountdownTimer />
-          <p className="text-center text-lg text-[#8B8B5C] font-medium">5 de Diciembre, 2025</p>
+          <Reveal>
+            <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-cursive)] text-center text-[#D4AF37]">
+              Faltan...
+            </h2>
+          </Reveal>
+          <Reveal delay={100}>
+            <CountdownTimer />
+          </Reveal>
+          <Reveal delay={200}>
+            <p className="text-center text-lg text-[#8B8B5C] font-medium">5 de Diciembre, 2025</p>
+          </Reveal>
         </div>
       </section>
 
