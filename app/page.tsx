@@ -123,7 +123,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-6">
             <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-cursive)] text-[#B5B682]">
-              Padrinos y Padres
+              Mis Padres y Mis Padrinos
             </h3>
           </div>
           <div className="space-y-4">
