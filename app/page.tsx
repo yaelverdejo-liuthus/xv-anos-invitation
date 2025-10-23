@@ -135,7 +135,7 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Padrino</span>
               <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
-              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Luis Pavón Hernández</span>
+              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Saúl Vargas Felipe</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Mamá</span>
