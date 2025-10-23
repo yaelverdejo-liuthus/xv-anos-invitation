@@ -102,7 +102,7 @@ export default function Home() {
       </section>
 
       {/* Invitation Message */}
-      <section className="py-12 px-4">
+      <section className="py-12 px-4 hidden">
         <div className="max-w-2xl mx-auto">
           <Card className="border-2 border-[#D4AF37] bg-white/80 backdrop-blur">
             <CardContent className="p-8 text-center space-y-4">
@@ -123,17 +123,17 @@ export default function Home() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-6">
             <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-cursive)] text-[#B5B682]">
-              Padrinos y Padres
+              Mis Padres y Mis Padrinos
             </h3>
           </div>
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Madrina</span>
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Mamá</span>
               <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
-              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Virginia Arano Rosales</span>
+              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Manuela Espinosa Carrion</span>
             </div>
             <div className="flex items-center gap-3">
-              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Padrino</span>
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Papá</span>
               <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
               <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Luis Pavón Hernández</span>
             </div>
@@ -146,6 +146,40 @@ export default function Home() {
               <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Papá</span>
               <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
               <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Rafael Artíguez Carballo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Countdown Timer */}
+      {/* Sponsors and Parents (corrected) */}
+      <section className="py-12 px-4">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-6">
+            <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-cursive)] text-[#B5B682]">
+              Mis Padres y Mis Padrinos
+            </h3>
+          </div>
+          <div className="space-y-4">
+            <div className="flex items-center gap-3">
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Mamá</span>
+              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Manuela Espinosa Carrion</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Papá</span>
+              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Rafael Artíguez Carballo</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Madrina</span>
+              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Virginia Arano Rosales</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-sm uppercase tracking-wide text-[#8B8B5C] whitespace-nowrap">Mi Padrino</span>
+              <div className="flex-1 border-t border-dashed border-[#D4AF37]/60" />
+              <span className="text-lg font-medium bg-gradient-to-r from-[#B5B682] to-[#D4AF37] bg-clip-text text-transparent whitespace-nowrap">Saúl Vargas Felipe</span>
             </div>
           </div>
         </div>
